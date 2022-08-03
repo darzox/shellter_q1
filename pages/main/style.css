@@ -360,3 +360,204 @@ a {
 
   background-image: url("../../assets/images/sleeping-area.svg");
 }
+
+.main-donation {
+  padding-top: 90px;
+  padding-bottom: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  background-color: #F6F6F6;
+}
+
+.main-donation img {
+  margin-right: 30px;
+}
+
+.main-donation div {
+  width: 380px;
+}
+
+.main-donatioin__heading {
+  margin:0;
+  margin-bottom: 20px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+}
+
+.main-donation__info {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+}
+
+.main-donation__card-number {
+  position: relative;
+
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  padding-left: 60px;
+  width: 220px;
+  height: 23px;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  text-align: center ;
+
+  background-color: #F1CDB3;
+  border-radius: 9px;
+}
+
+.main-donation__card-number::before {
+  content: "";
+
+  position: absolute;
+  left: 15px;
+
+  width: 30px;
+  height: 23px;
+
+  background-image: url("../../assets/images/credit-card.svg");
+}
+
+.main-donation__legal-info {
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}
+
+.main-footer {
+  display: flex;
+  padding-top: 56px;
+  padding-bottom: 60px;
+}
+
+.main-footer__contacts {
+  margin-right: 160px;
+  width: 245px;
+}
+
+.main-footer__contacts  b {
+  display: block;
+  margin-bottom: 45px;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.main-footer__contacts address {
+  display: flex;
+}
+
+.main-footer__contacts address:first-of-type {
+  margin-bottom: 50px;
+}
+
+.main-footer__contacts a {
+  position: relative;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #F1CDB3;
+}
+
+
+.main-footer__contacts address:first-of-type::before {
+  content: "";
+
+  margin-right: 20px;
+  width: 40px;
+  height: 26px;
+
+  background-image: url("../../assets/images/mail.svg");
+}
+
+
+.main-footer__contacts address:last-of-type::before {
+  content: "";
+
+  margin-right: 20px;
+  width: 40px;
+  height: 32px;
+
+  background-image: url("../../assets/images/phone.svg");
+}
+
+.main-footer__addresses  b {
+  display: block;
+  margin-bottom: 34px;
+  width: 250px;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.main-footer__addresses address {
+  position: relative;
+
+  display: block;
+  padding-left: 42px;
+
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+
+.main-footer__addresses address::before {
+  content: "";
+
+  position: absolute;
+  left:0;
+
+  width: 22px;
+  height: 32px;
+
+  background-image: url("../../assets/images/pin.svg");
+}
+
+.main-footer__addresses address:first-of-type {
+  margin-bottom: 37px;
+}
+
+.main-footer {
+  position: relative;
+}
+
+.main-footer::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 310px;
+  background-image: url("../../assets/images/footer-puppy.png");
+}
