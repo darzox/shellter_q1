@@ -12,11 +12,15 @@ body {
 
 }
 
-.container {
-  padding-right: 40px;
-  padding-left: 40px;
-
-  background-image: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
 }
 
 a {
@@ -44,6 +48,13 @@ a {
 .button:hover,
 .button:active {
   background-color: #FDDCC4;
+}
+
+.container {
+  padding-right: 40px;
+  padding-left: 40px;
+
+  background-image: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
 }
 
 .wrapper {
