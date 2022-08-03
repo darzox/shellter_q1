@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, Times, serif;
+  font-size: 20px;
+  line-height: 23px;
+  color: #545454;
+
+}
+
+a {
+  text-decoration: none;
+}
