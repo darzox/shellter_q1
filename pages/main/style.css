@@ -243,3 +243,120 @@ a {
 
   color: #292929;
 }
+
+.main-help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-help__heading {
+  margin: 0;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 308px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.main-help__list {
+  margin: 0;
+  margin-bottom: 100px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1026px;
+
+  list-style: none;
+}
+
+.main-help__list li {
+  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-help__list li:first-child {
+  margin-bottom: 55px;
+}
+
+.main-help__list li:nth-child(5),
+.main-help__list li:nth-child(9) {
+  margin-right: 0px;
+
+}
+
+.main-help__list li::before {
+  content: "";
+
+  width: 48px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.main-help__list li:nth-child(1)::before {
+
+  background-image: url("../../assets/images/Vector.svg");
+}
+
+.main-help__list li:nth-child(2)::before {
+  width: 60px;
+  height: 60px;
+
+  background-image: url("../../assets/images/transportation.svg");
+}
+
+.main-help__list li:nth-child(3)::before {
+  width: 60px;
+  height: 60px;
+
+  background-image: url("../../assets/images/toys.svg");
+}
+
+.main-help__list li:nth-child(4)::before {
+  width: 60px;
+  height: 57px;
+
+  background-image: url("../../assets/images/bowls-and-cups.svg");
+}
+
+.main-help__list li:nth-child(5)::before {
+  width: 32px;
+  height: 60px;
+
+  background-image: url("../../assets/images/shampoos.svg");
+}
+
+.main-help__list li:nth-child(6)::before {
+  width: 60px;
+  height: 55px;
+
+  background-image: url("../../assets/images/vitamins.svg");
+}
+
+.main-help__list li:nth-child(7)::before {
+  width: 60px;
+  height: 60px;
+
+  background-image: url("../../assets/images/medicines.svg");
+}
+
+.main-help__list li:nth-child(8)::before {
+  width: 60px;
+  height: 53px;
+
+  background-image: url("../../assets/images/collars-or-leashes.svg");
+}
+
+.main-help__list li:nth-child(9)::before {
+  width: 57px;
+  height: 60px;
+
+  background-image: url("../../assets/images/sleeping-area.svg");
+}
